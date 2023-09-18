@@ -34,3 +34,20 @@ console.log(typeof bigNumber)
 console.log(typeof heros)
 console.log(typeof myObj)
 console.log(typeof myFunction)
+
+
+// stack(primitive) heap(non primitive)
+let myName ="kareena"
+let anotherName = myName;
+anotherName="karishma"
+console.log(anotherName)
+console.log(myName)
+
+let user ={
+    email:"user@google.com",
+    age:20
+}
+let userTwo =user;
+userTwo.email = "userTwo@google.com"
+console.log(user.email)
+console.log(userTwo.email)
