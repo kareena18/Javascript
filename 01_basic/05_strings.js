@@ -1,6 +1,6 @@
-const name ="kareena";
-const repocount =10;
-console.log(name+repocount+" value");
+const name = "kareena";
+const repocount = 10;
+console.log(name + repocount + " value");
 console.log(`My name is ${name} and my repocount is ${repocount}`);
 
 const gameName = new String('kareena');
@@ -12,19 +12,17 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(4));
 console.log(gameName.indexOf('a'));
 
-const newString = gameName.substring(0,4);
+const newString = gameName.substring(0, 4);
 console.log(newString);
 
-const anotherString = gameName.slice(-6,4);
+const anotherString = gameName.slice(-6, 4);
 console.log(anotherString);
 
-const newString1 ="       kareena       ";
+const newString1 = "       kareena       ";
 console.log(newString1);
 console.log(newString1.trim());
 
-const url ="https://kareena.com/kareena%20sahoo";
-console.log(url.replace('%20','-'));
-
+const url = "https://kareena.com/kareena%20sahoo";
+console.log(url.replace('%20', '-'));
 console.log(url.includes('kareen'));
-
 console.log(gameName.split('r'));
