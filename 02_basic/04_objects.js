@@ -43,3 +43,30 @@ console.log(Object.keys(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course ={
+    coursename:"js",
+    price:"999",
+    courseInstructor:"kareena"
+}
+//course.courseInstructor
+const {courseInstructor:instructor} = course;
+//console.log(courseInstructor);
+console.log(instructor);
+
+/*const navbar = ({company}){
+
+}
+navbar(company="karena");*/
+
+/*{
+    "name": "kareena",
+    "coursename":"js",
+    "price":"999"
+}
+[
+    {},
+    {},
+    {}
+]*/
