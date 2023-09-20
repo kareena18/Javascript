@@ -1,9 +1,9 @@
 //Primitive
 //7 types: string, number, boolean, null, undefined, symbol, bigint 
 
-const score =100
-const scoreValue =100.3
-const isLoggedIn =false
+const score = 100
+const scoreValue = 100.3
+const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
@@ -15,12 +15,12 @@ const bigNumber = 23897865654564158789n
 
 //Reference (Non Primitive)
 //Array, Objects, Functions
-const heros =["shaktiman","naagraj","doga"];
-let myObj ={
+const heros = ["shaktiman", "naagraj", "doga"];
+let myObj = {
     person_name: "kareena",
     age: 21
 }
-const myFunction = function(){
+const myFunction = function () {
     console.log("hello world");
 }
 console.log(typeof score)
@@ -37,17 +37,17 @@ console.log(typeof myFunction)
 
 
 // stack(primitive) heap(non primitive)
-let myName ="kareena"
+let myName = "kareena"
 let anotherName = myName;
-anotherName="karishma"
+anotherName = "karishma"
 console.log(anotherName)
 console.log(myName)
 
-let user ={
-    email:"user@google.com",
-    age:20
+let user = {
+    email: "user@google.com",
+    age: 20
 }
-let userTwo =user;
+let userTwo = user;
 userTwo.email = "userTwo@google.com"
 console.log(user.email)
 console.log(userTwo.email)
