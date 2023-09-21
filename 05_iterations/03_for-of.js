@@ -26,7 +26,7 @@ for (const [key, value] of map) {
 
 const myObject = {
     "game1": "NFS",
-    "ga,e2": "spiderman"
+    "game2": "spiderman"
 }
 /*for(const [key,value] of myObject){
     console.log(key,": ",value);
