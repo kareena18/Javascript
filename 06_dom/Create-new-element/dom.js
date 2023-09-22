@@ -1,18 +1,13 @@
-const parentt = document.querySelector(".parent");
-console.log(parentt);
-console.log(parentt.children);
-console.log(parentt.children[1].innerHTML);
+const div=document.createElement("div");
+console.log(div);
+div.className="main";
+div.id=Math.round(Math.random()+10+1);
+div.setAttribute("title","generated title");
+div.style.backgroundColor="green";
+div.style.padding="15px";
+//div.innerText="KAREENA SAHOO";
 
-for (let i = 0; i < parentt.children.length; i++) {
-    console.log(parentt.children[i].innerHTML);
-}
-parentt.children[1].style.color="orange";
-console.log(parentt.firstElementChild);
-console.log(parentt.lastElementChild);
+const addText = document.createTextNode("KAREENA SAHOO");
+div.appendChild(addText);
 
-const dayOne = document.querySelector(".day");
-console.log(dayOne);
-console.log(dayOne.parentElement);
-console.log(dayOne.nextElementSibling);
-
-console.log("NODES: ",parentt.childNodes);
+document.body.appendChild(div);
